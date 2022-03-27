@@ -1,4 +1,4 @@
-# push_swap
+# 19 push_swap
 Sort data using two stacks and a limited set of instructions
 
 ## Compile and execute
