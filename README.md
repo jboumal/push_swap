@@ -22,6 +22,9 @@ our stack a is then sorted.
 ## Optimisation
 The idea of the project is to optimize sorting algorithm to be able to sort the stack with as few instruction as possible.
 
+### Simple algorithm for less than 5 elements stacks
+Another simpler algortihm is used for less than 5 elements stacks
+
 ### Replacing numbers by their index
 Replacing numbers by their index allows to iterate on fewer bit of the integer, and to ignore negative numbers case which would otherwise increase number of instructions. It is done with a bubble sort.
 
@@ -55,3 +58,7 @@ for each element of stack a / 2
 	rr
 	rr
 ```
+
+### Performance
+100 elements stacks are sorted in ~850 operations.  
+500 elements stacks are sorted in ~5480 operations.  
