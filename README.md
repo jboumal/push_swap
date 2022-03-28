@@ -11,11 +11,11 @@ Base idea is pretty simple (positive numbers only):
 for each bit (from lsb to msb):
 	for each element of stack a:
 		if bit == 0:
-			do pb
+			pb
 		else
-			do ra
+			ra
 	for each element of stack b:
-		do pa
+		pa
 ```
 our stack a is then sorted.
 
@@ -34,14 +34,14 @@ Instead of pushing all stack b to a, next numbers to be pushed to b are instead 
 for each bit (from lsb to msb):
 	for each element of stack a:
 		if bit == 0:
-			do pb
+			pb
 		else
-			do ra
+			ra
 	for each element of stack b:
 		if next_bit == 0:
-			do rb
+			rb
 		else
-			do pa
+			pa
 ```
 
 ### Sort odd and even indexes
@@ -50,11 +50,11 @@ To become more effective, algorithm is started at second lsb. Then, at the end o
 ```
 for each element of stack a / 2
 	if reverted_odd_and_even in a and b
-		do ss
+		ss
 	elseif reverted_odd_and_even in a
-		do sa
+		sa
 	elseif reverted_odd_and_even in b
-		do sb
+		sb
 	rr
 	rr
 ```
