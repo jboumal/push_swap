@@ -6,7 +6,7 @@ Compile with `make` and execute with `./push_swap *list_of_integers*`
 
 ## Algorithm
 The algorithm is an adaptation of radix sort.  
-Base idea is pretty simple (posive numbers only):  
+Base idea is pretty simple (positive numbers only):  
 ```
 for each bit (from lsb to msb):
 	for each element of stack a:
