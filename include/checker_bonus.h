@@ -6,13 +6,13 @@
 /*   By: jboumal <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 13:57:40 by jboumal           #+#    #+#             */
-/*   Updated: 2022/03/10 13:57:42 by jboumal          ###   ########.fr       */
+/*   Updated: 2022/03/28 12:35:06 by jboumal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CHECKER_BONUS_H
 # define CHECKER_BONUS_H
-# include "printf/ft_printf.h"
+# include "ft_printf.h"
 # include "get_next_line.h"
 
 typedef struct s_stack

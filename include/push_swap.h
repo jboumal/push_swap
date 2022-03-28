@@ -6,13 +6,13 @@
 /*   By: jboumal <jboumal@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/02 22:45:25 by jboumal           #+#    #+#             */
-/*   Updated: 2022/03/02 22:45:27 by jboumal          ###   ########.fr       */
+/*   Updated: 2022/03/28 12:34:50 by jboumal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
-# include "printf/ft_printf.h"
+# include "ft_printf.h"
 
 typedef struct s_stack
 {

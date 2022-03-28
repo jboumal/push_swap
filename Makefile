@@ -8,7 +8,8 @@ SRCS		= push_swap.c \
 			  utils.c \
 			  init_stacks.c \
 			  stack.c
-SRC_BONUS	= checker_bonus.c \
+SRCS		:= $(addprefix src/,$(SRCS)) 
+SRCS_BONUS	= checker_bonus.c \
 			  list.c \
 			  push.c \
 			  rotate.c \
@@ -19,14 +20,15 @@ SRC_BONUS	= checker_bonus.c \
 			  get_next_line.c \
 			  get_next_line_utils.c \
 			  stack.c
+SRCS_BONUS	:= $(addprefix src/,$(SRCS_BONUS))
 OBJS		= ${SRCS:.c=.o}
-OBJ_BONUS   = ${SRC_BONUS:.c=.o}
+OBJ_BONUS   = ${SRCS_BONUS:.c=.o}
 NAME		= push_swap
 NAME_BONUS  = checker
 CC			= gcc
 MAKE		= make
 RM			= rm -f
-CFLAGS		= -Wall -Wextra -Werror
+CFLAGS		= -Wall -Wextra -Werror -Iinclude -Iprintf
 			
 $(NAME):		$(OBJS)
 				$(MAKE) -C printf
